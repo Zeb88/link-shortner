@@ -6,6 +6,7 @@ import Signup from '../ui/Signup';
 import Link from '../ui/Link';
 import NotFound from '../ui/NotFound';
 import Login from '../ui/Login';
+import Index from '../ui/Index';
 
 const unauthenticatedPages = ['/', '/signup'];
 const authenticatedPages = ['/links'];
@@ -32,7 +33,8 @@ export const onAuthChange = (isAuthenticated) => {
 };
 export const routes = (
   <Router history={browserHistory}>
-    <Route path="/" component={Login} onEnter={onEnterPublicPage}/>
+    <Route path="/" component={Index} onEnter={onEnterPublicPage}/>
+    <Route path="/login" component={Login} onEnter={onEnterPublicPage}/>
     <Route path="/signup" component={Signup} onEnter={onEnterPublicPage}/>
     <Route path="/links" component={Link} onEnter={onEnterPrivatePage}/>
     <Route path="*" component={NotFound}/>
