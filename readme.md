@@ -1,6 +1,6 @@
-#Short Links
+# Short Links
 
 This is a link shortener built on Meteor and React.
 
-##Authors
+## Authors
 Zed Anwar
