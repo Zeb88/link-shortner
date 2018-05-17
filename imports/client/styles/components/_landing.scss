@@ -12,6 +12,7 @@
   font-weight: 400;
   text-align: left;
   letter-spacing: 2px;
+  padding-top: 17px;
 }
 
 .heading-2 {
@@ -36,6 +37,9 @@
   font-size: 19px;
   line-height: 29px;
   text-align: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-1 {
@@ -163,7 +167,6 @@
 .navdiv-a {
   width: 50%;
   padding-left: 4%;
-  padding-top: 1%;
 }
 
 .navdiv-b {
@@ -204,6 +207,7 @@
   .kids-image {
     height: 180px;
   }
+
 }
 
 @media (max-width: 479px) {
@@ -231,7 +235,8 @@
   }
   .button-2 {
     display: block;
-    width: 100%;
+    margin-right: auto;
+    // width: 100%;
     margin-top: 5px;
     margin-left: 0px;
     float: none;
@@ -291,6 +296,7 @@
   .navdiv-a {
     width: auto;
     padding-left: 0%;
+    padding-top: 1%;
   }
   .navdiv-b {
     width: auto;
@@ -300,6 +306,9 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
+  }
+  .heading-main {
     text-align: center;
   }
 }
