@@ -8,7 +8,7 @@ import NotFound from '../ui/NotFound';
 import Login from '../ui/Login';
 import Index from '../ui/Index';
 
-const unauthenticatedPages = ['/', '/signup'];
+const unauthenticatedPages = ['/', '/signup', '/login'];
 const authenticatedPages = ['/links'];
 const onEnterPublicPage = () => {
   if (Meteor.userId()) {
