@@ -31,7 +31,7 @@ export default () => {
                 <Link className="button-1 w-button" to="/signup">Create an Account</Link>
               </div>
               <div className="button-b w-clearfix">
-                <Link className="button-2 w-button" to="/signup">Already have an account?</Link>
+                <Link className="button-2 w-button" to="/login">Already have an account?</Link>
               </div>
             </div>
             <div className="div-block">
