@@ -1,6 +1,6 @@
 # Short Links
 
-This is a link shortener built on Meteor and React.
+A completely free URL/Link shortener with real-time engagement stats. Built as a side-project to raise awareness about the issues children face around the world.
 
-## Authors
-Zed Anwar
+Fork it or use as it is on[Shrtnr.org](https://shrtnr.org)
+

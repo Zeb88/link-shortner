@@ -17,7 +17,7 @@ export default () => {
 
             <div className="navdiv-b w-clearfix">
               <a href="https://www.unicef.org.nz/appeals" className="link-block w-inline-block" target="_blank">
-                <div className="text-block-3">Donate to UNICEF</div>
+                <div className="text-block-3">Donate to Children</div>
               </a>
             </div>
 
@@ -25,7 +25,7 @@ export default () => {
 
           <div className="hero-container">
             <h1 className="heading-2">A URL/Link shortener with a cause</h1>
-            <div className="text-block">Shrtnr is a completely free URL/Link shortener with real-time engagement stats, created with a&nbsp;cause in mind, and built as a side project by UNICEF to raise awareness&nbsp;about the issues children face around the world</div>
+            <div className="text-block">A completely free URL/Link shortener with real-time engagement stats. Built as a side-project to raise awareness about the issues children face around the world.</div>
             <div className="button-container">
               <div className="button-a w-clearfix">
                 <Link className="button-1 w-button" to="/signup">Create an Account</Link>
